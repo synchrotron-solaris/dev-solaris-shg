@@ -406,6 +406,7 @@ class RingSHG(Facade):
         subcommand(1)
 
 
+run=RingSHG.run_server()
 
 if __name__ == '__main__':
-   RingSHG.run_server()
+   run()

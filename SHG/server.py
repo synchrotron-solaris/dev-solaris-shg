@@ -11,11 +11,11 @@ SHG_NAME = SHG.__class__
 run_SHG = SHG.run_server
 
 #: Server name as used in the Tango database
-RingSHG_NAME = RingSHG.RingSHG.__class__
+RingSHG_NAME = RingSHG.__class__
 run_RingSHG = RingSHG.run_server
 
 #: Server name as used in the Tango database
-LandauSHG_NAME = LandauSHG.LandauSHG.__class__
+LandauSHG_NAME = LandauSHG.__class__
 run_LandauSHG = LandauSHG.run_server
 
 

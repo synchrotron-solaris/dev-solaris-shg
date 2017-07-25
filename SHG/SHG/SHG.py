@@ -194,6 +194,7 @@ class SHG(Facade):
         subcommand(1)
 
 
+run=SHG.run_server()
 
 if __name__ == '__main__':
-   SHG.run_server()
+   run()

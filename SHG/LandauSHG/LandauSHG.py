@@ -284,6 +284,7 @@ class LandauSHG(Facade):
         subcommand(1)
 
 
+run=LandauSHG.run_server()
 
 if __name__ == '__main__':
-   LandauSHG.run_server()
+   run()
