@@ -3,20 +3,20 @@
 # Imports
 import sys
 from SHG.SHG import SHG
-from RingSHG import RingSHG
-from LandauSHG import LandauSHG
+from RingSHG.RingSHG import RingSHG
+from LandauSHG.LandauSHG import LandauSHG
 
 #: Server name as used in the Tango database
 SHG_NAME = SHG.__class__
-run_SHG = SHG_DS.run_server
+run_SHG = SHG.run_server
 
 #: Server name as used in the Tango database
 RingSHG_NAME = RingSHG.RingSHG.__class__
-run_RingSHG = SHG_DS.run_server
+run_RingSHG = RingSHG.run_server
 
 #: Server name as used in the Tango database
 LandauSHG_NAME = LandauSHG.LandauSHG.__class__
-run_LandauSHG = SHG_DS.run_server
+run_LandauSHG = LandauSHG.run_server
 
 
 # Run function
