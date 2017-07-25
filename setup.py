@@ -16,9 +16,9 @@ setup(
     install_requires=["setuptools", "facadedevice", "pytango"],
     entry_points={
         "console_scripts": ["SHG = "
-                            "SHG.SHG.SHG:run"
+                            "SHG.SHG.SHG:run",
                             "RingSHG = "
-                            "SHG.RingSHG.RingSHG:run"
+                            "SHG.RingSHG.RingSHG:run",
                             "LandauSHG = "
                             "SHG.LandauSHG.LandauSHG:run"]}
 )
