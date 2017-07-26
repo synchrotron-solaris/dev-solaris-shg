@@ -1,9 +1,9 @@
 from setuptools import find_packages, setup
-from SHG.version import __version__, licence
-from SHG import __doc__, __author__, __author_email__
+from TangoDS.version import __version__, licence
+from TangoDS import __doc__, __author__, __author_email__
 
 setup(
-    name="SHG TangoDS",
+    name="SHG_DS TangoDS",
     author=__author__,
     author_email=__author_email__,
     version=__version__,
@@ -16,9 +16,9 @@ setup(
     install_requires=["setuptools", "facadedevice", "pytango"],
     entry_points={
         "console_scripts": ["SHG = "
-                            "SHG.SHG.SHG:run",
+                            "TangoDS.SHG_DS.SHG.shg:run",
                             "RingSHG = "
-                            "SHG.RingSHG.RingSHG:run",
+                            "TangoDS.RingSHG_DS.RingSHG.ringshg:run",
                             "LandauSHG = "
-                            "SHG.LandauSHG.LandauSHG:run"]}
+                            "TangoDS.LandauSHG_DS.LandauSHG.landaushg:run"]}
 )

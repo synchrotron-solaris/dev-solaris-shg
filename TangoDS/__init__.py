@@ -1,5 +1,11 @@
 """
-This is the top-level docstring (of the whole package).
+DEV SHG SOLARIS
+===============
+
+This whole package contains three Device Classes for the shuntgroups. Those are:
+* SHG
+* RingSHG
+* LandauSHG
 """
 
 from setuptools import find_packages
