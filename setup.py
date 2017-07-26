@@ -3,7 +3,7 @@ from shg.version import __version__, licence
 from shg import __doc__, __author__, __author_email__
 
 setup(
-    name="tangods-shgds",
+    name="tangods-shg",
     author=__author__,
     author_email=__author_email__,
     version=__version__,
