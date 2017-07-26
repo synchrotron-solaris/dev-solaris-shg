@@ -19,7 +19,7 @@ Then install GIT::
 
    yum install git
 
-Clone repository end enter to it::
+Clone repository and enter to it::
 
    git clone URL
    cd NAME

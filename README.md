@@ -4,7 +4,7 @@ DEV-SOLARIS-SHG
 Tango Device Server for the shuntgroups based on the fasadedevice library. Each is launched on
 its own Device Class.
 
-This is a sample Python project that follows
+This project follows
 [NSRC SOLARIS coding policies](http://gitlab.m.cps.uj.edu.pl/CSIT/doc-solaris-coding-policies).
 
 
@@ -25,7 +25,7 @@ Then install GIT:
 ```console
 yum install git
 ```
-Clone repository end enter to it:
+Clone repository and enter to it:
 ```console
 git clone URL
 cd NAME
@@ -49,7 +49,7 @@ Requirements
 Requirements for this project are:
  - `setuptools`
  - `facadedevice`
- - `tango`
+ - `pytango`
 
 License
 -------

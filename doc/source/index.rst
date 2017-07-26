@@ -11,8 +11,8 @@
 .. |pic2| image:: _static/TANGO_controls_logo.png
    :width: 15%
 
-Welcome to documentation!
-=========================
+Welcome to the documentation!
+=============================
 
 .. important::
    The principal aim of this documentation is to shed some light on two issues. First is to clarify how to set up this project properly whereas
