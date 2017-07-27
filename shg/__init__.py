@@ -10,7 +10,7 @@ This whole package contains three Device Classes for the shuntgroups. Those are:
 
 from setuptools import find_packages
 
-__all__ = ['shg_ds', 'ring_shg_ds', 'landau_shg_ds', 'version']
+__all__ = ['shg', 'shg_ds', 'ring_shg_ds', 'landau_shg_ds', 'version']
 __doc__ = ""
 __author__ = ""
 __author_email__ = ""
