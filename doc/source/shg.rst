@@ -13,6 +13,14 @@ Subpackages
 Submodules
 ----------
 
+shg\.run\_server module
+-----------------------
+
+.. automodule:: shg.run_server
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 shg\.version module
 -------------------
 
