@@ -1,8 +1,8 @@
 DEVICE CLASSES SHG SOLARIS
 ==========================
 
-Tango Device Server for the shuntgroups based on the fasadedevice library. Each is launched on
-its own Device Class.
+Tango Device Server for the shuntgroups based on the fasadedevice library.
+All three Device Classes are launched on one Device Server.
 
 This project follows
 [NSRC SOLARIS coding policies](http://gitlab.m.cps.uj.edu.pl/CSIT/doc-solaris-coding-policies).
